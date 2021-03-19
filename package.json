@@ -1,0 +1,24 @@
+{
+  "name": "instagram-post-bot",
+  "version": "1.0.0",
+  "description": "Puppeteer bot for automating Instagram posts for non-business Instagram users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamchrisjp/instagram-post-bot.git"
+  },
+  "keywords": [
+    "instagram",
+    "puppeteer",
+    "node"
+  ],
+  "author": "Chris Eckert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamchrisjp/instagram-post-bot/issues"
+  },
+  "homepage": "https://github.com/iamchrisjp/instagram-post-bot#readme"
+}
