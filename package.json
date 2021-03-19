@@ -4,7 +4,7 @@
   "description": "Puppeteer bot for automating Instagram posts for non-business Instagram users",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/iamchrisjp/instagram-post-bot/issues"
   },
-  "homepage": "https://github.com/iamchrisjp/instagram-post-bot#readme"
+  "homepage": "https://github.com/iamchrisjp/instagram-post-bot#readme",
+  "dependencies": {
+    "puppeteer": "^8.0.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.6"
+  }
 }
