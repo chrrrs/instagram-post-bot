@@ -1,7 +1,7 @@
 const Puppeteer = require("puppeteer");
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
-const { clickButton, delay } = require("./utils/action");
+const { clickButton, delay } = require("./utils/actions");
 const { autoScroll } = require("./utils/scroll");
 
 const init = async (username, password, filepath, description) => {
